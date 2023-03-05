@@ -1,0 +1,16 @@
+
+<body>
+  <script src="https://geo.dailymotion.com/libs/player/x1gwb.js"></script>
+
+
+<div id="my-dailymotion-player">My Player placeholder</div>
+
+<script>
+  dailymotion
+    .createPlayer("my-dailymotion-player", {
+      video: "x8is3cy",
+  })
+  .then((player) => console.log(player))
+  .catch((e) => console.error(e));
+</script>
+</body>
