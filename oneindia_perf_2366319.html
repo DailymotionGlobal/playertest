@@ -8,7 +8,10 @@
 <script>
   dailymotion
     .createPlayer("my-dailymotion-player", {
-      video: "x8is3cy",
+        video: "x8is3cy",
+        params: {
+            mute: true,
+        }
   })
   .then((player) => console.log(player))
   .catch((e) => console.error(e));
