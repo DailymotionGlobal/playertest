@@ -1,0 +1,19 @@
+
+<body>
+  <script src="https://geo.dailymotion.com/libs/player/xpyo.js"></script>
+
+
+<div id="my-dailymotion-player">My Player placeholder</div>
+
+<script>
+  dailymotion
+    .createPlayer("my-dailymotion-player", {
+        video: "x873541",
+        params: {
+            mute: true,
+        }
+  })
+  .then((player) => console.log(player))
+  .catch((e) => console.error(e));
+</script>
+</body>
