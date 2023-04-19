@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Embed with Player Library Script</title>
+<style media="screen">
+    .playerDiv {
+      width: 420px;
+      height: 250px;
+      /*background-color: powderblue;*/
+    }
+</style>
+  </head>
+  <body>
+
+    <h2><b>Embed with Player Lib</b></h2>
+
+
+    <p>daily</p>
+    <p>daily</p>
+    <p>daily</p>
+    <p>daily</p>
+    <h1>motion</h1>
+    <h2>motion</h2>
+    <h3>motion</h3>
+    <h4>motion</h4>
+    <h5>motion</h5>
+    <p>daily</p>
+    <p>daily</p>
+    <p>daily</p>
+    <p>daily</p>
+    <h1>motion</h1>
+    <h2>motion</h2>
+    <h3>motion</h3>
+    <h4>test</h4>
+    <h5>motion</h5><h5>DAILY</h5><h5>motion</h5>
+
+    <script src="https://geo.dailymotion.com/libs/player/xpyo.js"></script>
+    <div class="playerDiv">
+      <div id="fullscreen-player"></div>
+    </div>
+              <script>
+                dailymotion
+                .createPlayer('fullscreen-player', {
+                  video: 'x873541',
+                })
+                .then((player) => console.log(player))
+                .catch((e) => console.error(e));
+              </script>
+
+    <p>daily</p>
+    <p>daily</p>
+    <p>daily</p>
+    <p>daily</p>
+    <h1>motion</h1>
+    <h2>motion</h2>
+    <h3>motion</h3>
+    <h4>motion</h4>
+    <h5>motion</h5>
+    <p>daily</p>
+    <p>daily</p>
+    <h1>motion</h1>
+    <h2>motion</h2>
+    <p>daily</p>
+    <p>daily</p>
+    <p>daily</p>
+    <h4>motion</h4>
+    <h5>motion</h5>
+    <p>daily</p>
+    <p>daily</p>
+    <p>daily</p>
+    <p>1</p><p>2</p><p>3</p><p>4</p><p>5</p>
+    <p>6</p><p>7</p><p>8</p><p>9</p><p>10</p>
+    <p>1</p><p>2</p><p>3</p><p>4</p><p>5</p>
+    <p>6</p><p>7</p><p>8</p><p>9</p><p>10</p>
+    <p>1</p><p>2</p><p>3</p><p>4</p><p>5</p>
+    <p>6</p><p>7</p><p>8</p><p>9</p><p>10</p>
+    <p>1</p><p>2</p><p>3</p><p>4</p><p>5</p>
+    <p>6</p><p>7</p><p>8</p><p>9</p><p>10</p>
+  </body>
+</html>
