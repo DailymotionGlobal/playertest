@@ -1,0 +1,30 @@
+
+
+
+<h2><b>ASIANET</b></h2>
+<style>
+.videoPlayer {
+    //height: 100%;
+    height: 230;
+    width: 640px;
+    background: yellow;
+  }
+</style>
+
+
+<h2><p style="color:red">test player integration</p></h2>
+
+<div class='videoPlayer'>
+  <div id="dm-player">Asianet News Video</div>
+</div>
+
+<script src="https://geo.dailymotion.com/libs/player/x1tbu.js" data-video="k1T6310B1Bly7Jz0IP6"></script>
+<script>
+dailymotion
+  .createPlayer('dm-player', {
+    video: 'k1T6310B1Bly7Jz0IP6',
+    title: 'pk test',
+  })
+  .then((player) => console.log(player))
+  .catch((e) => console.error(e));
+ </script>
