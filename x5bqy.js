@@ -1,4 +1,4 @@
-// Dailymotion Player Embed v-0.0.3204-rc1
+// Dailymotion Player Embed v-0.0.3203-rc1
 // This file is generated dynamically, do not host it yourself
 // Statically hosting or caching this file will break your integration
 'use strict';var _dmpesplayer=function(){function na(c,a){var b=Object.keys(c);if(Object.getOwnPropertySymbols){var d=Object.getOwnPropertySymbols(c);a&&(d=d.filter(function(e){return Object.getOwnPropertyDescriptor(c,e).enumerable}));b.push.apply(b,d)}return b}function w(c){for(var a=1;a<arguments.length;a++){var b=null!=arguments[a]?arguments[a]:{};a%2?na(Object(b),!0).forEach(function(d){W(c,d,b[d])}):Object.getOwnPropertyDescriptors?Object.defineProperties(c,Object.getOwnPropertyDescriptors(b)):
