@@ -1,0 +1,27 @@
+<!-- https://codepen.io/team/dailymotion-developer/pen/JjWdqzJ -->
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="utf-8">
+    <title></title>
+    <style media="screen">
+
+      body {
+        height: 3500px;
+      }
+      #dailymotion-pip-small-viewport {
+      --position-top: 300;
+      }
+      @media screen and (max-width: 800px) {
+        .left, .main, .right {
+          width: 100%; /* The width is 100%, when the viewport is 800px or smaller */
+        }
+      }
+    </style>
+
+  </head>
+  <body>
+    <script src="https://geo.dailymotion.com/player/x39m.js" data-video="x730nnd"></script>
+  </body>
+</html>
