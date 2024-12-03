@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <style media="screen">
+          div.a {
+              height: 400px;
+            }
+          div.b {
+            height: 2000px;
+          }
+    </style>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta charset="utf-8">
+    <title></title>
+  </head>
+  <body>
+    <div class="a"></div>
+<script src="https://geo.dailymotion.com/libs/player/x9tpr.js"></script>
+<div class="playerDiv">
+  <div id="fullscreen-player"></div>
+  <script type="text/javascript">
+    dailymotion
+        .createPlayer('fullscreen-player', {
+              video: 'x951ypu',
+         })
+        .then((player) => console.log(player))
+        .catch((e) => console.error(e));
+
+  </script>
+</div>
+<div class="b"></div>
+  </body>
+</html>
