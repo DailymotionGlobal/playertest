@@ -1,0 +1,28 @@
+
+
+
+<h2><b>ASIANET</b></h2>
+<style>
+.videoPlayer {
+    //height: 100%;
+    height: 230;
+    width: 640px;
+    background: yellow;
+  }
+</style>
+
+
+<div class='videoPlayer'>
+  <div id="dm-player">GMA Network</div>
+</div>
+<script src="https://geo.dailymotion.com/libs/player/xbdln.js"></script>
+<script>
+dailymotion
+  .createPlayer('dm-player', {
+    video: 'k6Supgw7MzIbF9CgLA6',
+    autoplay: false,
+    mute: false
+  })
+  .then((player) => console.log(player))
+  .catch((e) => console.error(e));
+ </script>
