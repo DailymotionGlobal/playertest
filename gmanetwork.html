@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+ <link rel="preload" href="https://geo.dailymotion.com/libs/player/xbdln.js" as="script">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+  </head>
+  <style>
+  .videoPlayer {
+      //height: 100%;
+      height: 230;
+      width: 640px;
+      background: yellow;
+    }
+  </style>
+  <body>
+
+    <h2><b>GMA Network</b></h2>
+
+
+
+    <h2><p style="color:red">test performance</p></h2>
+
+    <div class='videoPlayer'>
+      <div id="dm-player">gmanetwork video</div>
+    </div>
+    <script>
+    dailymotion
+      .createPlayer('dm-player', {
+        video: 'k6Supgw7MzIbF9CgLA6'
+      })
+      .then((player) => console.log(player))
+      .catch((e) => console.error(e));
+     </script>
+
+
+  </body>
+</html>
